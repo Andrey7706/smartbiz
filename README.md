@@ -1,1 +1,2 @@
 # smartbiz
+![Screenshot](image.png)
