@@ -28,20 +28,22 @@ body {
 
 /*Начало блока навигации*/
 
-nav {
+.nav {
     width: 920px;
     height: 55px;
     outline: 0px solid #cccccc;
 }
 
-nav li {
+.nav li {
     height: 55px;
     width: 184px;
     float: left;
+    outline: 0px solid #0000cc;
     text-align: center;
 }
 
-nav li a {
+.nav li a {
+    outline: 0px solid #00cc00;
     height: 40px;
     display: block;
     text-decoration: none;
@@ -52,15 +54,15 @@ nav li a {
     background-position: 0 -55px;
 }
 
-nav li a.first {
+.nav li a.first {
    background-image: url(../images/firstNav.png); 
 }
 
-nav li a.last {
+.nav li a.last {
     background-image: url(../images/lastNav.png); 
 }
 
-nav li a:hover {
+.nav li a:hover {
     background-position: 0 0;
     color: #ffffff;
 }
@@ -71,6 +73,7 @@ nav li a:hover {
 
 .darts {
     height: 430px;
+    outline: 0px solid #cccccc;
     background-image: url(../images/darts.png);
     background-repeat: no-repeat;
     background-position: 0 20px;
@@ -80,6 +83,7 @@ nav li a:hover {
 .sloganConteiner {
     height: 224px;
     width: 399px;
+    outline: 0px solid #cc0000;
     top: 103px;
     right: 13px;
     position: absolute;
@@ -106,6 +110,7 @@ nav li a:hover {
     font: bold 26px Arial, sans-serif;
     color: #ffffff;
     text-decoration: none;
+    outline: 0px solid #cccccc;
     margin: 36px 0 0 87px;
     padding: 9px 22px;
 }
@@ -116,12 +121,14 @@ nav li a:hover {
 
 .fotos {
     height: 241px;
+    outline: 0px solid #cc0000;
     background-image: url(../images/fotosBg.png);
     background-repeat: no-repeat;
     padding: 20px 22px 20px 20px;    
 }
 
 .fotos div {
+    outline: 0px solid #cccccc;
     float: left;
     width: 210px;
     height: 241px;
@@ -150,6 +157,7 @@ nav li a:hover {
 
 .fotos div h4 {
     height: 15px;
+    outline: 0px solid #000000;
     padding: 18px 0 0 13px;
     margin-top: 144px;
     font: bold 13px Arial, sans-serif;
@@ -160,6 +168,7 @@ nav li a:hover {
 
 .fotos div p {
     height: 34px;
+    outline: 0px solid #000000;
     padding: 3px 0 0 13px;
     font: 13px Arial, sans-serif;
     color: #323232;
@@ -181,6 +190,7 @@ nav li a:hover {
 /*Начало большого нижнего блока*/
 
 .big {
+    outline: 0px solid #000000;
     background-image: url(../images/bigBg.png);
     background-repeat: repeat-y;
     padding: 30px 35px 20px 35px; 
@@ -188,16 +198,19 @@ nav li a:hover {
 
 .bigR {
     height: 20px;
+    outline: 0px solid #0000cc;
     background-image: url(../images/bigRBg.png);
 }
 
 .business {
+    outline: 0px solid #00cc00;
     width: 520px;
     float: left;
     margin-right: 30px;
 }
 
 .projects {
+    outline: 0px solid #0000cc;
     width: 300px;
     float: left;
 }
@@ -218,6 +231,7 @@ nav li a:hover {
 }
 
 .inBusiness {
+    outline: 0px solid #000000;
     padding-left: 128px;
     margin-top: 5px;
     background-image: url(../images/inBusinessBg.png);
@@ -231,6 +245,10 @@ nav li a:hover {
 
 .business ul {
     float: left;
+}
+
+.clear {
+    clear: both;
 }
 
 .b1 {
@@ -265,6 +283,7 @@ nav li a:hover {
 
 .projects div {
     padding-left: 112px;
+    outline: 0px solid #000000;
     margin-bottom: 30px;
     background-repeat: no-repeat;
     background-position: 0 6px;
@@ -301,7 +320,7 @@ nav li a:hover {
 
 /*Начало футера*/
 
-footer {
+.footer {
     padding: 25px 0 47px 0;
     text-align: center;
     font: 13px Arial, sans-serif;
@@ -309,7 +328,3 @@ footer {
 }
 
 /*Конец футера*/
-
-.clear {
-    clear: both;
-}
